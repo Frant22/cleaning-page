@@ -1,0 +1,27 @@
+.info {
+  font-size: 16px;
+  font-weight: 600;
+
+  &__phone {
+    padding-right: 15px;
+
+    &::after {
+      content: '|';
+      padding-left: 15px;
+    }
+  }
+
+  &__time {
+    padding-right: 38px;
+  }
+
+  &__menu {
+    background: url('../images/Menu\ Icon.svg') no-repeat center;
+    width: 22px;
+    height: 10px;
+
+    cursor: pointer;
+
+    padding-top: 18px;
+  }
+}

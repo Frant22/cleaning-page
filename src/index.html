@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.scss"><link>
-  <script src="main.js"></script>
-  <!-- TODO: Add title -->
-  <title>Document</title>
-</head>
-<body>
-  <h1>Template</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.scss"><link>
+    <title>Cleaning page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top top">
+        <div class="top__left">
+          <div class="header__logo"></div>
+          <div class="header__toggle toggle">
+            <div class="toggle__item toggle__item--active">
+              Дом
+            </div>
+            <div class="toggle__item">
+              Офис
+            </div>
+          </div>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="link">
+                После ремонта
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="link">
+                Генеральная уборка
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="link">
+                Регулярная уборка
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="link">
+                Мойка окон
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info info">
+          <a class="info__phone link" href="tel:+380674016977">
+            +380 67 401 69 77
+          </a>
+          <div class="info__time">
+            24/7
+          </div>
+          <div class="info__menu"></div>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 class="header__heading">
+          Уборка квартир в Киеве
+        </h1>
+        <p class="header__text">
+          Мы уберем у вас дома или в офисе. Наведем чистоту после ремонта и проведем генеральную уборку.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="content animation no-hide">
+          <div class="content__box content__box--first">
+            Тщательно отобранный персонал
+          </div>
+          <div class="content__box content__box--second">
+            Качественная эко-химия
+          </div>
+          <div class="content__box content__box--third">
+            Контролируем качество
+          </div>
+          <div class="content__box content__box--fourth">
+            Работаем круглосуточно
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__gallery gallery">
+          <div class="gallery__top">
+            <h2 class="gallery__heading">
+              Как мы убираем
+            </h2>
+            <p class="gallery__text">
+              Клинер приезжает в назначенное время со всем необходимым и сразу приступает к делу.
+              Вам остаётся только оценить результат.
+            </p>
+          </div>
+          <div class="gallery__image animation"></div>
+          <div class="galelry__menu menu animation">
+            Как мы убираем
+            <ul class="menu__list">
+              <li class="menu__item menu__item--active">Кухня</li>
+              <li class="menu__item">Комната</li>
+              <li class="menu__item">Ванная </li>
+              <li class="menu__item">Прихожая</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>

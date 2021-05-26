@@ -1,0 +1,15 @@
+.nav {
+  width: 660px;
+  
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

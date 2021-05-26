@@ -1,0 +1,14 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.2px;
+
+  align-items: center;
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+
+    width: 270px;
+  }
+}

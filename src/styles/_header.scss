@@ -1,0 +1,42 @@
+.header {
+  max-width: 2000px;
+  height: 800px;
+  padding: 16px 36px 0 54px;
+
+  background-image: url('../images/header-image.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  &__logo {
+    background: url('../images/Logo.svg') no-repeat center;
+    width: 99.5px;
+    height: 25px;
+  }
+
+  &__info {
+    display: flex;
+  }
+
+  &__content {
+    padding-top: calc(325px - 190px);
+    padding-left: 60%;
+  }
+
+  &__heading {
+    font-size: 76px;
+    width: 380px;
+    padding-bottom: 30px;
+
+    line-height: 1.1;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 25px;
+    width: 400px;
+  }
+}

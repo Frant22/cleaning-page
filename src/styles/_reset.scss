@@ -1,0 +1,29 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: 'Travels-Regular';
+  font-weight: 400;
+  font-size: 18px;
+  color: $text-color;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,46 @@
+.menu {
+  background-color: $menu-background-color;
+  width: 24%;
+  height: 959px;
+
+  color: $menu-text-color;
+
+  padding: 35px 50px;
+  transform: translate(-100%, -100%);
+  opacity: 0;
+  transition-duration: 2s;
+
+  &.active {
+    transform: translate(-18%, -102%);
+    opacity: 1;
+  }
+
+  &__list {
+    list-style: none;
+    padding-top: 200px;
+  }
+
+  &__item {
+    font-size: 44px;
+    font-style: italic;
+    color: $menu-text-color;
+    opacity: 0.7;
+
+    padding-bottom: 20px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &--active {
+      opacity: 1;
+      transform: translate(10%, 0);
+
+      &::before {
+        content: '→';
+        padding-right: 15px;
+      }
+    }
+  }
+}
