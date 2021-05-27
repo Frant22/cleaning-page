@@ -24,22 +24,21 @@
   }
 
   &__image {
-    overflow-x: hidden;
-    background-image: url('../images/kitchen.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-
-    margin-left: auto;
-    margin-right: auto;
-
     width: 70%;
     height: 800px;
+    transform: translate(270px, 0);
 
     transition-duration: 2s;
+    animation: slide 1s linear;
+    animation-delay: 2s;
 
     &.active {
-      transform: translate(16.2%, -12.4%) scale(1.2);
+      transform: translate(37.7%, -9.4%) scale(1.2);
     }
   }
+}
+
+@keyframes slide {
+  0% { left: 0; }
+  100% { left: 100%; }
 }
